@@ -1,0 +1,50 @@
+html{
+	width: 1366px;
+	height:435px;
+}
+
+body{
+	width: 980px;
+	margin: auto;
+}
+
+/*--------------------------------------------------------------------------header------------------------------------------------------------*/
+
+header img {
+	position: absolute;
+	top: 0px;
+	right: 190px;
+}
+
+header nav{
+	background-color: black;
+	margin-top: 185px;
+	height: 38px;
+	
+}
+
+header ul{
+	display: flex;
+    justify-content: space-between;
+	padding-left: 0px;
+}
+
+header li{
+	list-style: none;
+	height: 28px;
+	padding: 10px 7px 0 7px;
+}
+header li:hover, header li:focus{
+	background-color: grey;
+}
+
+
+header a{
+	 
+	color: white;
+	text-decoration: none;
+	font-family: 'open sans condensed',sans-serif;
+	font-size: 14px;
+}
+
+/*----------------------------------------------------------------------fin du header---------------------------------------------------------*/
