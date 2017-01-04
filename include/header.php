@@ -1,4 +1,4 @@
-<img src="images/logoHeader.png">
+<a href=""><img src="images/logoHeader.png"></a>
 
 <nav>
 	<ul id="menu">

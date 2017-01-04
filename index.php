@@ -13,11 +13,11 @@
 		</header>
 		
 		<section>
-		<img src="images/waterline.png">
+		<a href="#"><img src="images/waterline.png"></a>
 		
 		<article id="mariage">
 			<img src="images/coeur.png"/ id="coeur" >
-			<img src="images/mariage.png" id="couple"/>
+			<a href=""><img src="images/mariage.png" id="couple"/></a>
 			<img src="images/photographe.png" id="photographe"/>
 			
 			<div>
@@ -39,14 +39,15 @@
 			</div>
 		</article>
 		
-		<article class="laine">
+		<article id="articleLaine">
 			<div>
 				<h1>FORMATION PHOTO</h1><img src="images/formation.png" id="formation"/>
 			</div>
 			<div id="laineP">
 				<p>COURS PHOTO INDIVIDUEL-COACHING PHOTO</BR>ATELIER PHOTO COLLECTIF-SORTIE PHOTO</BR>CHAINE YOUTUBE EDUCATIVE-VIDEOS ET TUTOS</BR>A PARTIR DE 20 €</p>
+				<img src="images/focus.png" id="focus"/>
 			</div>
-			<img src="images/laine.png" id="laine"/>
+			<a href="#"><img src="images/laine.png" id="laine"/></a>
 		</article>
 		
 		<aside>
