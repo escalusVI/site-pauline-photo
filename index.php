@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="styleIndex.css">
 		<title>Index</title>
 	</head>
 	
@@ -15,18 +16,37 @@
 		<img src="images/waterline.png">
 		
 		<article id="mariage">
-			<img src="images/coeur.jpg"/ style=width:166px; >
-			<img src="images/mariage.png"/>
+			<img src="images/coeur.png"/ id="coeur" >
+			<img src="images/mariage.png" id="couple"/>
+			<img src="images/photographe.png" id="photographe"/>
 			
-			<p></br>REPORTAGE PHOTOGRAPHIQUE-PLUSIEURS FORFAITS DES PREPARATIFS AU DESSRT-A PARTIR DE 400 €</p>
+			<div>
+				<p></br>REPORTAGE PHOTOGRAPHIQUE-PLUSIEURS FORFAITS DES PREPARATIFS AU DESSERT-A PARTIR DE 400 €<img src="images/coeurBlanc.png" id="coeurBlanc"/></p>
+			</div>
+			
+		</article>
+
+		<article id="portrait">
+			<div id="ligne">
+			<img src="images/parapluie.png" id="parapluie">
+				<h1>PORTRAIT EN STUDIO</h1>
+			</div>
+			
+			<h1>PORTRAIT EN EXTERIEUR</h1>
+			
+			<div>
+				<p>NOUVEAU-NES-BEBES-ENFANTS-FAMILLE</br>COUPLES-LINGERIE-GROSSESSE</br>PLUSIEURS FORFAITS-A PARTIR DE 42 €</p>
+			</div>
 		</article>
 		
-		<article>
-		
-		</article>
-		
-		<article>
-			<img src="images/laine.png"/>
+		<article class="laine">
+			<div>
+				<h1>FORMATION PHOTO</h1><img src="images/formation.png" id="formation"/>
+			</div>
+			<div id="laineP">
+				<p>COURS PHOTO INDIVIDUEL-COACHING PHOTO</BR>ATELIER PHOTO COLLECTIF-SORTIE PHOTO</BR>CHAINE YOUTUBE EDUCATIVE-VIDEOS ET TUTOS</BR>A PARTIR DE 20 €</p>
+			</div>
+			<img src="images/laine.png" id="laine"/>
 		</article>
 		
 		<aside>

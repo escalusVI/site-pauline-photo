@@ -1,0 +1,195 @@
+/*-----------------------------------------------------------------section------------------------------------------------------------------*/
+section{
+	position: relative;
+	
+}
+
+
+article{
+	width: 684px;
+	border: 4px black solid;
+	margin: 40px;
+	position: relative;
+	margin:40px 0 0 0px;
+	border-radius: 10px;
+	
+}
+/*-----------------------------------------------------------------article mariage----------------------------------------------------------------------------*/
+#mariage p{
+	width: 692px;
+	height: 45px;
+	background-color: black;
+	color: white;
+	font-family: 'open sans condensed',sans-serif;
+	font-size: 13px;
+	text-align: center;
+	position: absolute;
+	bottom: -15px;
+	margin: 0px;
+	position: absolute;
+	left: -4px;
+	z-index: 0;
+
+}
+
+#mariage{
+	height: 138px;
+	margin-top: 55px;
+	margin-bottom: 60px;
+}
+
+#mariage img{
+	margin-top: -45px;
+}
+
+#couple{
+	margin-left: 200px;
+}
+
+#photographe{
+	position: absolute;
+	right: 40px;
+	bottom: 20px;
+}
+
+#coeur{
+	width: 166px;
+	height: 149px;
+	position: absolute;	
+	bottom: 15px;
+}
+
+#coeurBlanc{
+	width: 58.53px;
+	height: 53px;
+	position: absolute;
+	right: -30px;
+	bottom: 0px;
+	z-index: 1;
+}
+/*---------------------------------------------------------------fin article mariage-------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------article portrait---------------------------------------------------------------------------*/
+
+#portrait div p{
+	background-color: black;
+}
+
+#portrait h1 , #portrait p{
+	text-align: right;
+	margin-right: 10px;
+}
+
+#portrait p{
+	margin: 0px;
+	color: white;
+	font-size: 15px;
+	font-family: 'open sans condensed',sans-serif;
+}
+
+#portrait h1{
+	font-family: amatic;
+	font-size: 30px;
+	margin: 15px;
+}
+
+#ligne{
+	border-bottom: 4px black solid;
+}
+
+#parapluie{
+	position: absolute;
+	right: -15px;
+	top: -50px;
+}
+
+/*---------------------------------------------------------------fin article portrait-------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------article formation--------------------------------------------------------------------------*/
+.laine{
+	height: 211px;
+}
+
+#laine{
+	position: absolute;
+	top: -3px;
+	right: -3px;
+	border: 4px black solid;
+	border-radius: 10px;
+}
+
+.laine h1{
+	margin: 0px;
+	padding:20px;
+	height: 84px;
+	padding-top: 30px;
+	font-family: amatic;
+	font-size: 30px;
+}
+
+.laine p{
+	background-color: black;
+	color: white;
+	font-size: 13px;
+	padding-left: 20px;
+}
+
+#laineP{
+	background-color: black;
+	position: absolute;
+	bottom: 0px;
+	width: 600px;
+	height: 110px;
+
+}
+.laine div{
+	border: 4px black solid;
+}
+
+#formation{
+	position: absolute;
+	left: 210px;
+	top: 0px;
+}
+/*-----------------------------------------------------------------fin article formation----------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------aside--------------------------------------------------------------------------------------*/
+aside{
+	width: 256px;
+	height: 670px;
+	background-color: black;
+	border-radius: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+	margin-left: 10px;
+	position: absolute; 
+	right:0px;
+	top: 420px;
+
+}
+
+aside div{
+	margin: 0 20px 0 20px;
+	border-bottom: 5px grey dotted;
+	text-align: center;
+	padding: 10px;
+	font-family: amatic;
+	
+}
+
+aside h1{
+	font-size: 45px;
+	margin: 0px;
+}
+
+aside p{
+	font-size: 25px;
+	margin: 10px 0 10px 0;
+}
+
+aside img{
+	margin: 10px;
+}
+/*--------------------------------------------------------------fin du aside---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------fin de section--------------------------------------------------------------*/
