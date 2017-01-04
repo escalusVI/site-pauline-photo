@@ -1,38 +1,52 @@
+@font-face{
+	font-family: 'amatic';
+	src: url('font/amatic/AmaticSC-Regular.ttf') format('truetype');
+}
+
 html{
 	width: 1366px;
-	height: 435px;
 }
 
 body{
 	width: 980px;
 	margin: auto;
+	display: flex;
+	flex-direction: column;
 }
 
 /*--------------------------------------------------------------------------header--------------------------------------------------------*/
+header{
+	position:relative;
+	display:flex;
+
+	
+}
 
 header img {
 	position: absolute;
 	top: 0px;
-	right: 190px;
+	right: 0px;
 }
 
 header nav{
 	background-color: black;
 	margin-top: 185px;
 	height: 38px;
+	width:100%;
 	
 }
 
 header ul{
 	display: flex;
     justify-content: space-between;
-	padding-left: 0px;
+	margin-top: 0px;
+	padding: 0 10px 0 10px;
 }
 
 header li{
 	list-style: none;
 	height: 28px;
-	padding: 10px 7px 0 7px;
+	padding-top: 10px;
 }
 header li:hover, header li:focus{
 	background-color: grey;
@@ -40,16 +54,92 @@ header li:hover, header li:focus{
 
 
 header a{
-	 
-	color: white;
+	color: #FFFFFF;
 	text-decoration: none;
 	font-family: 'open sans condensed',sans-serif;
 	font-size: 14px;
+	padding: 0 5px 0 5px;
 }
 
 /*--------------------------------------------------------------fin du header---------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------section------------------------------------------------------------------*/
+section{
+	position: relative;
+	
+}
+
+
+section img{
+	!margin-bottom:20px;
+	
+}
+
+article{
+	width: 684px;
+	border: 4px black solid;
+	margin: 10px;
+}
+#mariage p{
+	height: 45px;
+	background-color: black;
+	color: white;
+	font-family: 'open sans condensed',sans-serif;
+	margin: 0px;
+	font-size: 14px;
+	text-align: center;
+}
+
+#mariage{
+	height: 138px;
+	margin-top: 55px;
+}
+
+#mariage img{
+	margin-top: -55px;
+}
+
+/*---------------------------------------------------------------aside----------------------------------------------------------------------*/
+aside{
+	width: 256px;
+	height: 670px;
+	background-color: black;
+	border-radius: 10px;
+	color: #ffffff;
+	padding-top: 40px;
+	margin-left: 10px;
+	position: absolute; 
+	right:0px;
+	top: 398px;
+
+}
+
+aside div{
+	margin: 0 20px 0 20px;
+	border-bottom: 5px grey dotted;
+	text-align: center;
+	padding: 10px;
+	font-family: amatic;
+	
+}
+
+aside h1{
+	font-size: 45px;
+	margin: 0px;
+}
+
+aside p{
+	font-size: 25px;
+	margin: 10px 0 10px 0;
+}
+
+aside img{
+	margin: 10px;
+}
+/*--------------------------------------------------------------fin du aside---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------fin de section--------------------------------------------------------------*/
+
 
 
 /*-----------------------------------------------------------------fin de section-----------------------------------------------------------*/
@@ -59,8 +149,11 @@ header a{
 footer{
 	width: 980px;
 	height: 72px;
-	position: relative;
+	position: relative;	
+	padding: 10px;
+	margin: 20px;
 }
+
 
 #ligneFooter{
 	background-color: black;
@@ -68,5 +161,5 @@ footer{
 	height: 4px;
 	position: absolute;
 	left: 462px;
-	top: 20px;
+	top: 30px;
 }
