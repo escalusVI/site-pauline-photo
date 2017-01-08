@@ -6,22 +6,21 @@ section{
 
 
 article{
-	width: 684px;
+	width: 69%;
 	border: 4px black solid;
-	margin: 40px;
+	margin: 5% 0 0 1%;
 	position: relative;
-	margin:40px 0 0 0px;
 	border-radius: 10px;
 	
 }
 /*-----------------------------------------------------------------article mariage----------------------------------------------------------------------------*/
 #mariage p{
-	width: 692px;
+	width: 100%;
 	height: 45px;
 	background-color: black;
 	color: white;
 	font-family: 'open sans condensed',sans-serif;
-	font-size: 13px;
+	font-size: 12px;
 	text-align: center;
 	position: absolute;
 	bottom: -15px;
@@ -57,13 +56,14 @@ article{
 	height: 149px;
 	position: absolute;	
 	bottom: 15px;
+	left: -10px;
 }
 
 #coeurBlanc{
 	width: 58.53px;
 	height: 53px;
 	position: absolute;
-	right: -30px;
+	right: -35px;
 	bottom: 0px;
 	z-index: 1;
 }
@@ -161,8 +161,8 @@ article{
 
 /*-----------------------------------------------------------------aside--------------------------------------------------------------------------------------*/
 aside{
-	width: 256px;
-	height: 670px;
+	width: 26%;
+	height: 61%;
 	background-color: black;
 	border-radius: 10px;
 	color: #ffffff;
@@ -176,11 +176,13 @@ aside{
 
 aside div{
 	margin: 0 20px 0 20px;
-	border-bottom: 5px grey dotted;
 	text-align: center;
 	padding: 10px;
 	font-family: amatic;
-	
+}
+
+.section{
+	border-bottom: 5px grey dotted;	
 }
 
 aside h1{
@@ -194,14 +196,62 @@ aside p{
 }
 
 aside img{
-	margin: 10px;
+	margin: 2%;
 }
 
-#barreGrise{
-	position: absolute;
-	bottom: -10px;
-	left: -10px;
+#barreCopyright{
+width: 100%;	
+margin-left: 0px;
+padding: 0px;
+}
+
+#copyright{
+	color: white;
+	font-size: 20px;
+	margin-top: 21px;
+	background-image: url("images/barreGrise.png");
 	border-radius: 0 0 10px 10px;
+	position: absolute;
+	width: 100%;
+	bottom: -11px;
+}
+
+/*************************/
+/*       formulaire     */
+/************************/
+
+#formulaire{
+	border: 4px solid #202223;
+	background-color: #202223;
+	padding: 0px;
+	height: 289px;
+	width: 80%;
+}
+
+#formulaire h2{
+	background-color: black;
+	margin: 0px;
+	height: 92px;
+	font-size: 33px;
+}
+
+.saisie, #envoyer{
+ background-color: #202223;
+ color: white;
+ font-size: 16px;
+ margin: 9px;
+}
+
+.saisie{
+	background-color: #202223;
+	 border: none;
+	  border-bottom: 2px white solid;
+
+}
+
+#formulaire input{
+	text-align: center;
+	width: 90%;
 }
 /*--------------------------------------------------------------fin du aside---------------------------------------------------------------*/
 

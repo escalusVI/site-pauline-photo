@@ -7,6 +7,7 @@
 		<title>Index</title>
 	</head>
 	
+	<div id="html">
 	<body>
 		<header>
 			<?php include ("include/header.php");?>
@@ -62,5 +63,5 @@
 			<?php include ("include/footer.php");?>
 		</footer>
 	</body>
-	
+	</div>
 </html>
