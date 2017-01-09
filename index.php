@@ -10,7 +10,7 @@
 	</head>
 	
 	<div id="html">
-	<body>
+	<body class="container">
 		<header>
 			<?php include ("include/header.php");?>
 		</header>

@@ -1,7 +1,7 @@
 <a href=""><img src="images/logoHeader.png"></a>
 
-<nav>
-	<ul id="menu">
+<nav class="container">
+	<ul id="menu" class: col-md-12>
 		<li><a href="index.php">ACCUEIL</a></li>
 		<li><a href="aPropos.php">A PROPOS</a></li>
 		<li><a href="#">MARIAGE</a></li>
