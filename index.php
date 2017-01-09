@@ -4,16 +4,46 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="styleIndex.css">
+		<link rel="stylesheet" href="carousel/style.css">
+		<link rel="stylesheet" href="carousel/css/bootstrap.css">
 		<title>Index</title>
 	</head>
 	
+	<div id="html">
 	<body>
 		<header>
 			<?php include ("include/header.php");?>
 		</header>
 		
 		<section>
-		<a href="#"><img src="images/waterline.png"></a>
+		<!--ajout du carousel-->
+			<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#bs-carousel" data-slide-to="1"></li>
+		<li data-target="#bs-carousel" data-slide-to="2"></li>
+	 </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <a href="#"><div class="slide-1"></div></a>
+    </div>
+    <div class="item slides">
+      <a href="#"><div class="slide-2"></div></a>               
+    </div>
+    <div class="item slides">
+      <a href="#"><div class="slide-3"></div></a>       
+        
+    </div>
+  </div> 
+</div>
+
+	<script src="carousel/js/jquery.js"></script>
+	<script src="carousel/js/bootstrap.min.js"></script>
+<!--fin du carousel-->
 		
 		<article id="mariage">
 			<img src="images/coeur.png"/ id="coeur" >
@@ -62,5 +92,5 @@
 			<?php include ("include/footer.php");?>
 		</footer>
 	</body>
-	
+	</div>
 </html>

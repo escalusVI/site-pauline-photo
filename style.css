@@ -3,15 +3,17 @@
 	src: url('font/amatic/AmaticSC-Regular.ttf') format('truetype');
 }
 
-html{
-	width: 1366px;
+#html{
+	width: 100%;
 }
 
 body{
-	width: 980px;
-	margin: auto;
+	width: 978px;
 	display: flex;
 	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 /*--------------------------------------------------------------------------header--------------------------------------------------------*/
@@ -72,11 +74,10 @@ header a{
 /*------------------------------------------------------------------footer------------------------------------------------------------------*/
 
 footer{
-	width: 980px;
-	height: 72px;
+	width: 100%;
 	position: relative;	
 	padding: 10px;
-	margin: 20px;
+	margin-top: 6%;
 }
 
 
