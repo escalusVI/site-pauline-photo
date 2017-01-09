@@ -3,7 +3,7 @@
 <nav>
 	<ul id="menu">
 		<li><a href="index.php">ACCUEIL</a></li>
-		<li><a href="#">A PROPOS</a></li>
+		<li><a href="aPropos.php">A PROPOS</a></li>
 		<li><a href="#">MARIAGE</a></li>
 		<li><a href="#">PORTRAIT</a></li>
 		<li><a href="#">FORMATION</a></li>
