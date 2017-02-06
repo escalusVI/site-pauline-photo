@@ -2,21 +2,30 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 		<title></title>
 	</head>
 	
 	<body>
-		<header>
-			<?php include ("header.php");?>
-		</header>
 		
-		<section>
+			<div class="container">
+			
+				<?php include ("include/header.php");?>
+			
+			
+			<section>
+			
+			</section>
+			
+			<footer>
+				<?php include ("include/footer.php");?>
+			</footer>
+			
+			</div>
 		
-		</section>
-		<footer>
-			<?php include ("footer.php");?>
-		</footer>
+		<script src="bootstrap/js/bootsrap.js"></script>
+		<script src="bootstrap/js/jquery.js"></script>
 	</body>
 	
 </html>

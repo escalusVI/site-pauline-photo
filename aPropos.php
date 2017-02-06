@@ -3,25 +3,28 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 		<title></title>
 	</head>
 	
 	<body>
-		<header>
-			<?php include ("include/header.php");?>
-		</header>
 		
-		<section>
-			<article>
-				<div id="aPropos">
-					<img src="images/aPropos/note.png"/>
-				</div>
+			<div class="container">
 			
-			</article>
-		</section>
-		<footer>
-			<?php include ("include/footer.php");?>
-		</footer>
+				<?php include ("include/header.php");?>
+			
+			
+			<section>
+			
+			</section>
+			<footer>
+				<?php include ("include/footer.php");?>
+			</footer>
+			
+			</div>
+		
+		<script src="bootstrap/js/bootsrap.js"></script>
+		<script src="bootstrap/js/jquery.js"></script>
 	</body>
 	
 </html>

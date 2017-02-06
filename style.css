@@ -3,78 +3,46 @@
 	src: url('font/amatic/AmaticSC-Regular.ttf') format('truetype');
 }
 
-#html{
-	width: 100%;
-}
 
-body{
-	width: 978px;
-	display: flex;
-	flex-direction: column;
-	margin-left: auto;
-	margin-right: auto;
 
-}
 
 /*--------------------------------------------------------------------------header--------------------------------------------------------*/
-header{
-	position:relative;
-	display:flex;
 
-	
-}
-
-header img {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-}
-
-header nav{
+.menu{
 	background-color: black;
-	margin-top: 185px;
-	height: 38px;
-	width:100%;
-	
 }
 
-header ul{
-	display: flex;
-    justify-content: space-between;
-	margin-top: 0px;
-	padding: 0 10px 0 10px;
+
+
+header a, header a:hover{
+	color: #FFFFFF;
+	text-decoration:none;
+	font-family: 'open sans condensed',sans-serif;
+	font-size: 17px;
 }
 
 header li{
-	list-style: none;
-	height: 28px;
-	padding-top: 10px;
+	padding: 10px 0 10px 0;
 }
-header li:hover, header li:focus{
+
+header li:hover{
 	background-color: grey;
 }
 
-
-header a{
-	color: #FFFFFF;
-	text-decoration: none;
-	font-family: 'open sans condensed',sans-serif;
-	font-size: 14px;
-	padding: 0 5px 0 5px;
-}
 
 /*--------------------------------------------------------------fin du header---------------------------------------------------------------*/
 
 
 
-
+/*--------------------------------------------------------------------section-----------------------------------------------------------*/
 
 /*-----------------------------------------------------------------fin de section-----------------------------------------------------------*/
+
+
 
 /*------------------------------------------------------------------footer------------------------------------------------------------------*/
 
 footer{
-	width: 100%;
 	position: relative;	
 	padding: 10px;
 	margin-top: 6%;
@@ -89,3 +57,4 @@ footer{
 	left: 462px;
 	top: 30px;
 }
+/*-----------------------------------------------------------------fin de footer-----------------------------------------------------------*/
