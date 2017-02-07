@@ -18,7 +18,7 @@ header a, header a:hover{
 	color: #FFFFFF;
 	text-decoration:none;
 	font-family: 'open sans condensed',sans-serif;
-	font-size: 17px;
+	font-size: 13px;
 }
 
 header li{
@@ -35,6 +35,57 @@ header li:hover{
 
 
 /*--------------------------------------------------------------------section-----------------------------------------------------------*/
+/*section a propos*/
+
+.note{
+	position: relative;
+	top: -43px;
+	margin-bottom: -60px;
+}
+
+.postIt{
+	z-index: 0;
+	position:relative;
+	margin-top: 7px;
+	
+}
+
+.noteText{
+	z-index: 1;
+	position: relative;
+	color: black;
+	margin-bottom: -41px;
+	padding: 0 0 0 0;
+}
+
+
+.propos{
+	margin-top: 40px;
+	padding: 23px;
+}
+
+.propos{
+	background-color: black;
+	color: white;
+	font-size: 21px;
+}
+
+.propos h1{
+	font-size: 35px;
+}
+
+.propos a{
+	text-decoration: none;
+	color:white;
+}
+
+.propos a:hover{
+	color:grey;
+}
+
+.appareil{
+	float: right;
+}
 
 /*-----------------------------------------------------------------fin de section-----------------------------------------------------------*/
 

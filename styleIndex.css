@@ -1,0 +1,260 @@
+/*-----------------------------------------------------------------section------------------------------------------------------------------*/
+section{
+	position: relative;
+	
+}
+
+
+article{
+	border: 4px black solid;
+	margin: 5% 0 0 1%;
+	position: relative;
+	border-radius: 10px;
+	
+}
+/*-----------------------------------------------------------------article mariage----------------------------------------------------------------------------*/
+.mariage p{
+	width: 100%;
+	height: 45px;
+	background-color: black;
+	color: white;
+	font-family: 'open sans condensed',sans-serif;
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
+	bottom: -15px;
+	margin: 0px;
+	position: absolute;
+	left: -4px;
+	z-index: 0;
+	border-radius: 10px;
+}
+
+.mariage{
+	height: 138px;
+	margin-top: 55px;
+	margin-bottom: 60px;
+}
+
+.mariage img{
+	margin-top: -45px;
+}
+
+#couple{
+	margin-left: 200px;
+}
+
+#photographe{
+	position: absolute;
+	right: 40px;
+	bottom: 20px;
+}
+
+#coeur{
+	width: 166px;
+	height: 149px;
+	position: absolute;	
+	bottom: 15px;
+	left: -10px;
+}
+
+#coeurBlanc{
+	width: 58.53px;
+	height: 53px;
+	position: absolute;
+	right: -35px;
+	bottom: 0px;
+	z-index: 1;
+}
+/*---------------------------------------------------------------fin article mariage-------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------article portrait---------------------------------------------------------------------------*/
+
+.portrait div p{
+	background-color: black;
+}
+
+.portrait h1 , .portrait p{
+	text-align: right;
+	margin-right: 10px;
+}
+
+.portrait p{
+	margin: 0px;
+	color: white;
+	font-size: 15px;
+	font-family: 'open sans condensed',sans-serif;
+}
+
+.portrait h1{
+	font-family: amatic;
+	font-size: 30px;
+	margin: 15px;
+}
+
+#ligne{
+	border-bottom: 4px black solid;
+}
+
+#parapluie{
+	position: absolute;
+	right: -15px;
+	top: -50px;
+}
+
+/*---------------------------------------------------------------fin article portrait-------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------article formation--------------------------------------------------------------------------*/
+.ArticleLaine{
+	height: 211px;
+	position: relative;
+}
+
+#laine{
+	position: absolute;
+	top: -3px;
+	right: -3px;
+	border: 4px black solid;
+	border-radius: 10px;
+}
+
+.ArticleLaine h1{
+	margin: 0px;
+	padding:20px;
+	height: 84px;
+	font-family: amatic;
+	font-size: 30px;
+}
+
+.ArticleLaine p{
+	background-color: black;
+	color: white;
+	font-size: 13px;
+	padding-left: 20px;
+}
+
+#laineP{
+	background-color: black;
+	position: absolute;
+	bottom: 0px;
+	width: 600px;
+	height: 130px;
+	font-family: 'open sans condensed',sans-serif;
+
+}
+.ArticleLaine div{
+	border: 4px black solid;
+}
+
+#formation{
+	position: absolute;
+	left: 210px;
+	top: 0px;
+}
+
+#focus{
+	position: absolute;
+	bottom: 0px;
+}
+/*-----------------------------------------------------------------fin article formation----------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------aside--------------------------------------------------------------------------------------*/
+aside{
+	width: 26%;
+	height: 61%;
+	background-color: black;
+	border-radius: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+	margin-left: 10px;
+	position: absolute; 
+	right:0px;
+	top: 420px;
+
+}
+
+aside div{
+	margin: 0 20px 0 20px;
+	text-align: center;
+	padding: 10px;
+	font-family: amatic;
+}
+
+.section{
+	border-bottom: 5px grey dotted;	
+}
+
+aside h1{
+	font-size: 45px;
+	margin: 0px;
+}
+
+aside p{
+	font-size: 25px;
+	margin: 10px 0 10px 0;
+}
+
+aside img{
+	margin: 2%;
+}
+
+#barreCopyright{
+width: 100%;	
+margin-left: 0px;
+padding: 0px;
+}
+
+#copyright{
+	color: white;
+	font-size: 20px;
+	margin-top: 21px;
+	background-image: url("images/barreGrise.png");
+	border-radius: 0 0 10px 10px;
+	position: absolute;
+	width: 100%;
+	bottom: -11px;
+}
+
+/*************************/
+/*       formulaire     */
+/************************/
+
+#formulaire{
+	border: 4px solid #202223;
+	background-color: #202223;
+	padding: 0px;
+	height: 289px;
+	width: 80%;
+}
+
+#formulaire h2{
+	background-color: black;
+	margin: 0px;
+	height: 92px;
+	font-size: 33px;
+}
+
+.saisie, #envoyer{
+ background-color: #202223;
+ color: white;
+ font-size: 16px;
+ margin: 9px;
+}
+
+.saisie{
+	background-color: #202223;
+	 border: none;
+	  border-bottom: 2px white solid;
+
+}
+
+#formulaire input{
+	text-align: center;
+	width: 90%;
+}
+/*--------------------------------------------------------------fin du aside---------------------------------------------------------------*/
+/*******************/
+/*     carousel   */
+/******************/
+
+/*--------------------------------------------------------------fin de section--------------------------------------------------------------*/
