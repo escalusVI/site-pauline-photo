@@ -18,7 +18,7 @@
 			
 			<section class="row col-lg-offset-1 col-lg-10 col-xs-12">
 			
-				<article class="mariage">
+				<article class="presentation">
 					<h1 class="pull-right">JE REALISE LE REPORTAGE DE VOTRE MARIAGE </h1>
 					<p class="pull-right">Création originales pour des Photos qui vous ressemblent...</p>
 					<img src="images/mariage/banniere.jpg" class="hidden-xs col-lg-12">
@@ -26,10 +26,10 @@
 				
 				
 				<aside class="col-lg-12 col-xs-12" >
-					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12 lienMariage">Organiser son Mariage </a><div class="hidden-xs col-lg-1 fleche_droite"></div>
-					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12  lienMariage">Consulter les Tarifs</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
-					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12 lienMariage">Découvrir la Galerie Photo</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
-					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12  lienMariage">Réserver une Date</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
+					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12 lien">Organiser son Mariage </a><div class="hidden-xs col-lg-1 fleche_droite"></div>
+					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12  lien">Consulter les Tarifs</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
+					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12 lien">Découvrir la Galerie Photo</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
+					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12  lien">Réserver une Date</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
 				</aside>
 			</section>
 		</div>

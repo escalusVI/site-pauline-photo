@@ -202,20 +202,20 @@ header li:hover{
 }
 
 /*mariage*/
-.mariage h1{
+.presentation h1{
 	padding: 0;
 }
 
-.mariage a{
+.presentation a{
 	margin: 20px;
 }
 
-.mariage p{
+.presentation p{
 	font-family: 'Sacramento', cursive;
 	font-size: 28px;
 }
 
-.lienMariage{
+.lien{
 	font-family: 'Sacramento', cursive;
 	font-size: 23px;
 	background-color: black;
@@ -223,12 +223,12 @@ header li:hover{
 	margin-bottom: 10px;
 }
 
-.lienMariage:hover{
+.lien:hover{
 	text-decoration:none;
 	color:white;
 	background-color: grey;
 }
-.mariage .col-lg-12{
+.presentation .col-lg-12{
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -257,7 +257,7 @@ aside{
 footer{
 	position: relative;	
 	padding: 10px;
-	margin-top: 6%;
+	margin-top: 3%;
 }
 
 

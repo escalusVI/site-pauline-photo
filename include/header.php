@@ -8,7 +8,7 @@
 		<li class="col-lg-0.5"><a href="aPropos.php">A PROPOS</a></li>
 		<li class="col-lg-0.5"><a href="mariage.php">MARIAGE</a></li>
 		<li class="col-lg-0.5"><a href="portrait.php">PORTRAIT</a></li>
-		<li class="col-lg-0.5"><a href="#">FORMATION</a></li>
+		<li class="col-lg-0.5"><a href="formation.php">FORMATION</a></li>
 		<li class="col-lg-0.5"><a href="#">PAUSE PHOTO</a></li>
 		<li class="col-lg-0.5"><a href="#">TRAVAIL D'AUTEUR</a></li>
 		<li class="col-lg-0.5"><a href="#">LINETTE</a></li>
@@ -38,7 +38,7 @@
 					<a href="portrait.php" onclick = $("#menu-close").click(); >PORTRAIT</a>
 				</li>
 				<li>
-					<a href="#portfolio" onclick = $("#menu-close").click(); >FORMATION</a>
+					<a href="formation.php" onclick = $("#menu-close").click(); >FORMATION</a>
 				</li>
 				<li>
 					<a href="#contact" onclick = $("#menu-close").click(); >PAUSE PHOTO</a>
