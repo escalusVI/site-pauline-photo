@@ -29,14 +29,14 @@
 				
 					<h3>COURS PHOTO</h3>
 					<p>TECHNIQUES DE PRISE DE VUES</BR>INITIATION PHOTOSHOP</BR>"GET READY WITH ME" THEMATIQUES</BR>COACHING PHOTOGRAPHES ET MODELES PHOTOS</BR></BR>EN INDIVIDUEL OU EN GROUPE</BR>EN PRESENTIEL OU EN FORAMTION A DISTANCE</BR></BR>
-					<a href="#" class="col-lg-10 col-xs-12 lien">Découvrir tous les Cours Photos </a><div class="hidden-xs col-lg-1 fleche_droite"></div>	
+					<div><a href="#" class="col-lg-10 col-xs-12 lien">Découvrir tous les Cours Photos </a><div class="hidden-xs col-lg-1 fleche_droite"></div></div>
 				</aside>
 				
 				<aside class="col-lg-offset-1 col-lg-6 col-xs-12" >
 				
 					<h3>COURS PHOTO</h3>
 					<p>TECHNIQUES DE PRISE DE VUES</BR>INITIATION PHOTOSHOP</BR>"GET READY WITH ME" THEMATIQUES</BR>COACHING PHOTOGRAPHES ET MODELES PHOTOS</BR></BR>EN INDIVIDUEL OU EN GROUPE</BR>EN PRESENTIEL OU EN FORAMTION A DISTANCE</BR></BR>
-					<a href="#" class="col-lg-10 col-xs-12 lien">Découvrir le Programme des Sorties Photos </a><div class="hidden-xs col-lg-1 fleche_droite"></div>	
+					<div><a href="#" class="col-lg-10 col-xs-12 lien">Découvrir le Programme des Sorties Photos </a><div class="hidden-xs col-lg-1 fleche_droite"></div></div>	
 				</aside>
 				
 			</section>

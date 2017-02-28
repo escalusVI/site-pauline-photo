@@ -26,10 +26,10 @@
 				
 				
 				<aside class="col-lg-12 col-xs-12" >
-					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12 lien">Organiser sa Prise de Vue </a><div class="hidden-xs col-lg-1 fleche_droite"></div>
-					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12  lien">Consulter les Tarifs</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
-					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12 lien">Découvrir la Galerie Photo</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
-					<a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12  lien">Prendre Rendez-Vous</a><div class="hidden-xs col-lg-1 fleche_droite"></div>
+					<div><a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12 lien">Organiser sa Prise de Vue </a><div class="hidden-xs col-lg-1 fleche_droite"></div></div>
+					<div><a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12  lien">Consulter les Tarifs</a><div class="hidden-xs col-lg-1 fleche_droite"></div></div>
+					<div><a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12 lien">Découvrir la Galerie Photo</a><div class="hidden-xs col-lg-1 fleche_droite"></div></div>
+					<div><a href="#" class="col-lg-offset-1 col-lg-4 col-xs-12  lien">Prendre Rendez-Vous</a><div class="hidden-xs col-lg-1 fleche_droite"></div></div>
 				</aside>
 			</section>
 		</div>

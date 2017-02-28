@@ -217,7 +217,7 @@ header li:hover{
 
 .lien{
 	font-family: 'Sacramento', cursive;
-	font-size: 23px;
+	font-size: 22px;
 	background-color: black;
 	color: white;
 	margin-bottom: 10px;
@@ -248,6 +248,7 @@ aside{
      
     border-left:16px solid black; 
 }
+
 /*-----------------------------------------------------------------fin de section-----------------------------------------------------------*/
 
 
